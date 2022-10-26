@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.DynamoDBv2" Version="3.7.3.38" />
+    <PackageReference Include="FakeItEasy" Version="5.5.0" />
+    <PackageReference Include="JunitXml.TestLogger" Version="2.1.15" />
+    <PackageReference Include="MailCheck.Common.Environment" Version="12.0.0" />
+    <PackageReference Include="MailCheck.Common.Logging" Version="12.0.0" />
+    <PackageReference Include="nunit" Version="3.11.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="MailCheck.Common.Contracts" Version="12.0.0" />
+    <PackageReference Include="MailCheck.Common.Data" Version="12.0.0" />
+    <PackageReference Include="MailCheck.Common.Messaging" Version="12.0.0" />
+    <PackageReference Include="MailCheck.Common.Util" Version="12.0.0" />
+    <PackageReference Include="MailCheck.Common.SSM" Version="12.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MailCheck.DomainStatus.Entity\MailCheck.DomainStatus.Entity.csproj" />
+  </ItemGroup>
+
+</Project>

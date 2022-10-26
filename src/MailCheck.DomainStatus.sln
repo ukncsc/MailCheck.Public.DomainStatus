@@ -1,0 +1,66 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2000
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2A5A2DB0-2B3E-4136-A3E2-9C8F2892A41B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4FA4F4FE-4266-4779-B25D-6CEFEDA971DB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailCheck.DomainStatus.Entity", "MailCheck.DomainStatus.Entity\MailCheck.DomainStatus.Entity.csproj", "{2EA5DAF9-16AE-4423-8FCA-FBCDD1A0830C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailCheck.DomainStatus.Entity.Test", "MailCheck.DomainStatus.Entity.Test\MailCheck.DomainStatus.Entity.Test.csproj", "{3DD0162B-628D-4077-A62D-C4C70A55C91A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailCheck.DomainStatus.Api", "MailCheck.DomainStatus.Api\MailCheck.DomainStatus.Api.csproj", "{80289383-2944-4921-948D-01D683D53375}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailCheck.DomainStatus.Api.Test", "MailCheck.DomainStatus.Api.Test\MailCheck.DomainStatus.Api.Test.csproj", "{CFE8AEED-0D10-47D8-9A87-51AF82121990}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MailCheck.DomainStatus.Common", "MailCheck.DomainStatus.Common\MailCheck.DomainStatus.Common.csproj", "{5CC71EAC-2AAA-4CAD-8205-EC570EDD2499}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MailCheck.DomainStatus.Contracts", "MailCheck.DomainStatus.Contracts\MailCheck.DomainStatus.Contracts.csproj", "{5D44E60F-3D5A-45AE-ACD5-5F91D7B53026}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2EA5DAF9-16AE-4423-8FCA-FBCDD1A0830C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA5DAF9-16AE-4423-8FCA-FBCDD1A0830C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA5DAF9-16AE-4423-8FCA-FBCDD1A0830C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA5DAF9-16AE-4423-8FCA-FBCDD1A0830C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DD0162B-628D-4077-A62D-C4C70A55C91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DD0162B-628D-4077-A62D-C4C70A55C91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DD0162B-628D-4077-A62D-C4C70A55C91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DD0162B-628D-4077-A62D-C4C70A55C91A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80289383-2944-4921-948D-01D683D53375}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80289383-2944-4921-948D-01D683D53375}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80289383-2944-4921-948D-01D683D53375}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80289383-2944-4921-948D-01D683D53375}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFE8AEED-0D10-47D8-9A87-51AF82121990}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE8AEED-0D10-47D8-9A87-51AF82121990}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE8AEED-0D10-47D8-9A87-51AF82121990}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE8AEED-0D10-47D8-9A87-51AF82121990}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CC71EAC-2AAA-4CAD-8205-EC570EDD2499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CC71EAC-2AAA-4CAD-8205-EC570EDD2499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CC71EAC-2AAA-4CAD-8205-EC570EDD2499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CC71EAC-2AAA-4CAD-8205-EC570EDD2499}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D44E60F-3D5A-45AE-ACD5-5F91D7B53026}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D44E60F-3D5A-45AE-ACD5-5F91D7B53026}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D44E60F-3D5A-45AE-ACD5-5F91D7B53026}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D44E60F-3D5A-45AE-ACD5-5F91D7B53026}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2EA5DAF9-16AE-4423-8FCA-FBCDD1A0830C} = {2A5A2DB0-2B3E-4136-A3E2-9C8F2892A41B}
+		{3DD0162B-628D-4077-A62D-C4C70A55C91A} = {4FA4F4FE-4266-4779-B25D-6CEFEDA971DB}
+		{80289383-2944-4921-948D-01D683D53375} = {2A5A2DB0-2B3E-4136-A3E2-9C8F2892A41B}
+		{CFE8AEED-0D10-47D8-9A87-51AF82121990} = {4FA4F4FE-4266-4779-B25D-6CEFEDA971DB}
+		{5CC71EAC-2AAA-4CAD-8205-EC570EDD2499} = {2A5A2DB0-2B3E-4136-A3E2-9C8F2892A41B}
+		{5D44E60F-3D5A-45AE-ACD5-5F91D7B53026} = {2A5A2DB0-2B3E-4136-A3E2-9C8F2892A41B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B41E5623-8177-40E5-8674-3AFD3895968F}
+	EndGlobalSection
+EndGlobal
